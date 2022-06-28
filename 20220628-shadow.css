@@ -1,0 +1,84 @@
+@charset "utf-8";
+p {
+    text-transform: uppercase;
+    /* 모든 영어를 대문자로 반환
+    uppercase - 대문자 / lowercase - 소문자 */
+    margin: 20px 0;
+    padding: 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Arial Black";
+    font-size: 30px;
+    color: #eee;
+}
+/* 
+text-shadow - 글자에 그림자 효과를 주는 속성
+box-shadow - 영역에 그림자 효과를 주는 속성
+- 기본값은 none - 해당 속성을 사용하지 않으면 동작하지 않는다.
+offest-x / offset-y / blur-radius / color
+가로(필수) / 세로(필수) / 흐림(선택 미사용시 기본값인 0이 동작) / 색상(선택 미사용시 브라우저의 기본값)
+*/
+.ts1 {text-shadow: 3px 3px 3px lightskyblue;}
+.ts2 {text-shadow: 6px 3px 3px lightskyblue;}
+.ts3 {text-shadow: 9px 3px 3px lightskyblue;}
+.ts4 {text-shadow: 3px 3px 3px lightskyblue;}
+.ts5 {text-shadow: 3px 6px 3px lightskyblue;}
+.ts6 {text-shadow: 3px 9px 3px lightskyblue;}
+.ts7 {text-shadow: 3px 3px 3px lightskyblue;}
+.ts8 {text-shadow: 3px 3px 6px lightskyblue;}
+.ts9 {text-shadow: 3px 3px 9px lightskyblue;}
+.ts10 {
+    text-shadow: 4px 4px 0 #1565c0,
+    8px 8px 0 #42a5f5,
+    12px 12px 0 #0d47a1;
+}
+.ts11 {
+    background-color: #666;
+    color: #222;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.2);
+}
+.ts12 {
+    background-color: #e1f5fe;
+    text-shadow: 4px 4px 0 #bdbdbd;
+}
+.ts13 {
+    color: #444;
+    background-color: #fff;
+    text-shadow: 1px 0px 1px #ccc,
+    0px 1px 1px #eee,
+    2px 1px 1px #ccc,
+    1px 2px 1px #eee,
+    3px 2px 1px #ccc,
+    2px 3px 1px #eee,
+    4px 3px 1px #ccc,
+    3px 4px 1px #eee,
+    5px 4px 1px #ccc,
+    4px 5px 1px #eee,
+    6px 5px 1px #ccc,
+    5px 6px 1px #eee,
+    7px 6px 1px #ccc;
+}
+.ts14 {
+    color: #fff;
+    background-color: #232323;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #49ff18,
+    0 0 30px #49ff18,
+    0 0 40px #49ff18,
+    0 0 55px #49ff18,
+    0 0 75px #49ff18;
+}
+.ts15 {
+background: #EDEEE9;
+color: #EDEEE9;
+font-family: 'Georgia';
+text-shadow: #3E3E40 1px 1px,#3E3E40 -0px 0px,#3E3E40 -1px 1px,#3E3E40 -2px 2px,#3E3E40 -3px 3px,#3E3E40 -4px 4px,#3E3E40 -5px 5px,#3E3E40 -6px 6px,#3E3E40 -7px 7px,#3E3E40 -8px 8px,#3E3E40 -9px 9px,#3E3E40 -10px 10px,#3E3E40 -11px 11px,#3E3E40 -12px 12px,#3E3E40 -13px 13px,#3E3E40 -14px 14px,#3E3E40 -15px 15px,#3E3E40 -16px 16px,#3E3E40 -17px 17px,#3E3E40 -18px 18px,#3E3E40 -19px 19px,#3E3E40 -20px 20px,#3E3E40 -21px 21px,#3E3E40 -22px 22px,#3E3E40 -23px 23px,#3E3E40 -24px 24px,#3E3E40 -25px 25px,#3E3E40 -26px 26px,#3E3E40 -27px 27px,#3E3E40 -28px 28px,#3E3E40 -29px 29px,#3E3E40 -30px 30px,#3E3E40 -31px 31px,#3E3E40 -32px 32px,#3E3E40 -33px 33px,#3E3E40 -34px 34px,#3E3E40 -35px 35px,#3E3E40 -36px 36px,#3E3E40 -37px 37px,#3E3E40 -38px 38px,#3E3E40 -39px 39px,#3E3E40 -40px 40px,#3E3E40 -41px 41px,#3E3E40 -42px 42px,#3E3E40 -43px 43px,#3E3E40 -44px 44px,#3E3E40 -45px 45px,#3E3E40 -46px 46px,#3E3E40 -47px 47px,#3E3E40 -48px 48px,#3E3E40 -49px 49px,#3E3E40 -50px 50px,#3E3E40 -51px 51px,#3E3E40 -52px 52px,#3E3E40 -53px 53px,#3E3E40 -54px 54px,#3E3E40 -55px 55px,#3E3E40 -56px 56px,#3E3E40 -57px 57px,#3E3E40 -58px 58px,#3E3E40 -59px 59px,#3E3E40 -60px 60px,#3E3E40 -61px 61px,#3E3E40 -62px 62px,#3E3E40 -63px 63px,#3E3E40 -64px 64px,#3E3E40 -65px 65px,#3E3E40 -66px 66px,#3E3E40 -67px 67px,#3E3E40 -68px 68px,#3E3E40 -69px 69px,#3E3E40 -70px 70px,#3E3E40 -71px 71px,#3E3E40 -72px 72px,#3E3E40 -73px 73px,#3E3E40 -74px 74px,#3E3E40 -75px 75px,#3E3E40 -76px 76px,#3E3E40 -77px 77px,#3E3E40 -78px 78px,#3E3E40 -79px 79px,#3E3E40 -80px 80px,#3E3E40 -81px 81px,#3E3E40 -82px 82px,#3E3E40 -83px 83px,#3E3E40 -84px 84px,#3E3E40 -85px 85px,#3E3E40 -86px 86px,#3E3E40 -87px 87px,#3E3E40 -88px 88px,#3E3E40 -89px 89px,#3E3E40 -90px 90px,#3E3E40 -91px 91px,#3E3E40 -92px 92px,#3E3E40 -93px 93px,#3E3E40 -94px 94px,#3E3E40 -95px 95px,#3E3E40 -96px 96px,#3E3E40 -97px 97px,#3E3E40 -98px 98px,#3E3E40 -99px 99px,#3E3E40 -100px 100px;
+overflow: hidden;
+}
+.ts16 {
+    background-color: lightcoral;
+    box-shadow: 5px 5px 10px #333;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.1);
+}
